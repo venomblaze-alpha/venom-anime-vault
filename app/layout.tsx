@@ -1,9 +1,9 @@
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+
 import "./globals.css";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
@@ -44,7 +44,6 @@ export default function RootLayout({
           {children}
           <Footer />
         </main>
-        <SpeedInsights />
       </body>
     </html>
   );
