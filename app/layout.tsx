@@ -35,6 +35,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/fav.png" type="image/png" />
+      </head>
       <body className={dmSans.className}>
         <main className="max-w-7xl mx-auto bg-[#17110f]">
           <Hero />
