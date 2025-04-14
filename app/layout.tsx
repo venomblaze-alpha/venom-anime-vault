@@ -9,14 +9,15 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AnimeV",
+  title: "VAnimeVault",
   description: "Your favorite anime, all in one place.",
-  metadataBase:new URL("https://animexs.vercel.app/"),
+  metadataBase:new URL("https://vanimevault.vercel.app/"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://anime-v.vercel.app/",
-    title: "Animex",
+    url: "https://vanimevault.vercel.app/",
+    title: "VAnimeVault",
+    siteName: "VAnimeVault",
     description: "Your favorite anime, all in one place.",
     images: [
       {
