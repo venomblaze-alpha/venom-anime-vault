@@ -22,8 +22,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://imgur.com/a/noWJV4z",
-        width: 1200,
-        height: 630,
       },
     ],
   },
